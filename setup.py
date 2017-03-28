@@ -57,7 +57,12 @@ extras_require = {
         'datacite>=0.3.0',
     ],
     'jsonld': [
-        'pyld>=0.7.1',
+        'pyld>=0.7.0',
+    ],
+    'rdf': [
+        'pyld>=0.7.0',
+        'rdflib>=4.0.0',
+        'rdflib-jsonld>=0.4.0'
     ],
     'dublincore': [
         'dcxml>=0.1.0',
